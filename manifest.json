@@ -1,0 +1,61 @@
+{
+  "id": "br.com.company.manutencao.v1",
+  "name": "Company da Manutenção PRO",
+  "short_name": "Company PRO",
+  "description": "Gestão profissional de manutenção em condomínios com IA preditiva.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#074776",
+  "orientation": "portrait",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Painel de Gestão PRO"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Mobile Maintenance App"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Ordem de Serviço",
+      "short_name": "Nova OS",
+      "description": "Abrir formulário de manutenção",
+      "url": "./index.html?tab=maintenance",
+      "icons": [{ "src": "icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Ver Laudos Mensais",
+      "short_name": "Laudos",
+      "description": "Acessar relatórios técnicos",
+      "url": "./index.html?tab=reports",
+      "icons": [{ "src": "icon.svg", "sizes": "any" }]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Company da Manutenção",
+  "description": "Sistema avançado de gestão de manutenção condominial, com suporte offline, análise preditiva e geração de relatórios mensais.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
